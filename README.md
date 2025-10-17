@@ -13,7 +13,7 @@ The API was designed following **clean architecture principles** and **concurren
   - Create new blueprints (`POST`)
   - Query blueprints (`GET`)
   - Update blueprints (`PUT`)
-  - **Delete blueprints (`DELETE`)** ✨ *New!*
+  - **Delete blueprints (`DELETE`)**
 - Filtering blueprints (by author or globally).
 - Exception handling with appropriate HTTP status codes (`404`, `400`, `500`).
 - Defensive copies to prevent uncontrolled modifications under concurrency.
